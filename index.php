@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar Eclipse</title>
+    <p> this is for test purpose </p>
     <style>
         body {
             margin: 0;
@@ -27,21 +28,21 @@
             left: 50%;
             width: 200px;
             height: 200px;
-            background: radial-gradient(circle, #FFD700, #FF4500);
+            background: radial-gradient(circle, #FFD700,rgb(156, 59, 24));
             border-radius: 50%;
             transform: translate(-50%, -50%);
-            box-shadow: 0 0 50px rgba(255, 215, 0, 0.7);
+            box-shadow: 50 50 1000px rgba(229, 155, 110, 0.7);
         }
 
         .moon {
             position: absolute;
             top: 50%;
             left: -150px;
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
             background: #555;
             border-radius: 50%;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 20px rgba(153, 37, 37, 0.5);
             transform: translateY(-50%);
             animation: moveMoon 5s linear infinite;
         }
